@@ -124,6 +124,10 @@ footer a{color:#fff}
 @media(max-width:520px){section{padding:50px 0}nav{gap:12px}nav a{font-size:14px}.sub{box-shadow:4px 4px 0 var(--ink);padding:20px}}
 
 /* v4 */
+/* fix Safari: figuras con ancho real para que carguen las fotos */
+.split .pic,.then figure,.talks figure{width:100%}
+.pic img,.polaroid img,.then figure img{width:100%;height:auto}
+
 /* hero v6 apilado estilo cartel */
 .hero2{background:var(--turq);overflow:hidden}
 .hero2-in{position:relative;min-height:640px;padding-top:48px;padding-bottom:56px}
@@ -231,7 +235,7 @@ footer .links{margin-top:8px}footer .links a{margin-right:16px}
 <p>Encima del cáncer, la culpa de no sentirte como en un anuncio de seguros.</p>
 <p><strong>No tienes que ser positivo. Tienes que aprender a moverte con lo que sientes. Eso se aprende.</strong></p>
 </div>
-<figure class="pic"><img class="sticker tilt-r" src="img/lengua.webp" alt="Roger en la cama del hospital, con la vía puesta, sacando la lengua" loading="lazy">
+<figure class="pic"><img width="566" height="720" class="sticker tilt-r" src="img/lengua.webp" alt="Roger en la cama del hospital, con la vía puesta, sacando la lengua" loading="lazy">
 <figcaption class="caption">Hospital, 2021. Positivo no. Con ganas de guerra, sí.</figcaption></figure>
 </div></div></section>
 
@@ -263,7 +267,7 @@ footer .links{margin-top:8px}footer .links a{margin-right:16px}
 <p>Cuando me encontraron la metástasis en el cerebro, quien escuchó al médico decir que no sabía si despertaría fue mi mujer. No yo. Yo estaba inconsciente.</p>
 <p>La persona que tienes al lado también tiene miedo. También necesita que alguien le pregunte cómo está. De eso va la complicidad.</p>
 </div>
-<figure class="polaroid tilt-r pic"><img src="img/pareja.jpg" alt="Roger y su mujer abrazados de espaldas frente a un lago de montaña" loading="lazy">
+<figure class="polaroid tilt-r pic"><img width="800" height="718" src="img/pareja.jpg" alt="Roger y su mujer abrazados de espaldas frente a un lago de montaña" loading="lazy">
 <figcaption>18 años juntos. Tres diagnósticos. Sigue aquí. Valiente.</figcaption></figure>
 </div>
 </div></section>
@@ -281,7 +285,7 @@ footer .links{margin-top:8px}footer .links a{margin-right:16px}
 </ul>
 <a class="btn ghost" href="https://mackay329.github.io/quiz-mentalidad/">Hacer el test →</a>
 </div>
-<figure class="pic"><img class="sticker tilt-r" src="img/aposito.webp" alt="Roger en el hospital con un apósito en la cabeza tras la operación de cerebro" loading="lazy">
+<figure class="pic"><img width="516" height="720" class="sticker tilt-r" src="img/aposito.webp" alt="Roger en el hospital con un apósito en la cabeza tras la operación de cerebro" loading="lazy">
 <figcaption class="caption">Este test lo ha hecho alguien a quien le han abierto la cabeza. Dos veces.</figcaption></figure>
 </div></div></section>
 
@@ -289,17 +293,17 @@ footer .links{margin-top:8px}footer .links a{margin-right:16px}
 <h2>Lo que me escriben personas como tú</h2>
 <p>Mensajes privados. Sin nombres, que son suyos.</p>
 <div class="shots">
-<figure><img src="img/t1.jpg" alt="Mensaje: tu perfil es de lo que más me ha ayudado a afrontar la operación y a cambiar la mentalidad" loading="lazy"></figure>
-<figure><img src="img/t3.jpg" alt="Mensaje: desde que me dijiste que hay que celebrar todo, me lo tomo al pie de la letra" loading="lazy"></figure>
-<figure><img src="img/t5.jpg" alt="Mensaje en catalán: un ejemplo a seguir, la vida es una y hay que vivirla cada día" loading="lazy"></figure>
-<figure><img src="img/t4.jpg" alt="Mensaje: haces mucho bien, lo que transmites no solo sirve para el cáncer, sirve para la vida" loading="lazy"></figure>
-<figure><img src="img/t2.jpg" alt="Mensaje: no es tan diferente para una persona con depresión, lo que publicas sirve para todos" loading="lazy"></figure>
+<figure><img width="640" height="369" src="img/t1.jpg" alt="Mensaje: tu perfil es de lo que más me ha ayudado a afrontar la operación y a cambiar la mentalidad" loading="lazy"></figure>
+<figure><img width="640" height="345" src="img/t3.jpg" alt="Mensaje: desde que me dijiste que hay que celebrar todo, me lo tomo al pie de la letra" loading="lazy"></figure>
+<figure><img width="640" height="315" src="img/t5.jpg" alt="Mensaje en catalán: un ejemplo a seguir, la vida es una y hay que vivirla cada día" loading="lazy"></figure>
+<figure><img width="640" height="228" src="img/t4.jpg" alt="Mensaje: haces mucho bien, lo que transmites no solo sirve para el cáncer, sirve para la vida" loading="lazy"></figure>
+<figure><img width="640" height="228" src="img/t2.jpg" alt="Mensaje: no es tan diferente para una persona con depresión, lo que publicas sirve para todos" loading="lazy"></figure>
 </div>
 </div></section>
 
 <div class="band bg-orange"><div class="wide"><div class="band-grid">
 <p class="punch">Mi oncólogo y yo ya nos tuteamos. Espero que tú no llegues a tanta confianza con el tuyo.</p>
-<img class="sticker tilt-r" src="img/pulgar.webp" alt="Roger con el pulgar arriba, la vía en la mano y la cicatriz en el pecho" loading="lazy">
+<img width="535" height="720" class="sticker tilt-r" src="img/pulgar.webp" alt="Roger con el pulgar arriba, la vía en la mano y la cicatriz en el pecho" loading="lazy">
 </div></div></div>
 
 <section class="bg-soft" id="quien"><div class="wide">
@@ -313,9 +317,9 @@ footer .links{margin-top:8px}footer .links a{margin-right:16px}
 <a class="btn ghost" href="quien-es-este.html">Leer mi historia entera →</a>
 </div>
 <div class="then" style="margin-top:0">
-<figure><img class="sticker tilt-l" src="img/babero.webp" alt="Roger con 25 años, calvo por la quimioterapia, con un babero de restaurante" loading="lazy">
+<figure><img width="720" height="613" class="sticker tilt-l" src="img/babero.webp" alt="Roger con 25 años, calvo por la quimioterapia, con un babero de restaurante" loading="lazy">
 <figcaption class="caption">25 años, calvo y con babero. Glamour puro.</figcaption></figure>
-<figure class="polaroid tilt-r"><img src="img/nieve.jpg" alt="Roger con 25 años, calvo, sonriendo en una estación de esquí" loading="lazy">
+<figure class="polaroid tilt-r"><img width="700" height="787" src="img/nieve.jpg" alt="Roger con 25 años, calvo, sonriendo en una estación de esquí" loading="lazy">
 <figcaption>En plena quimio. En la nieve. Frío en la cabeza gratis.</figcaption></figure>
 </div>
 </div>
@@ -331,8 +335,8 @@ footer .links{margin-top:8px}footer .links a{margin-right:16px}
 <li><strong>Canal Reus</strong><span>Entrevista</span></li>
 </ul>
 <div class="talks" style="margin-top:0">
-<figure class="polaroid tilt-l"><img src="img/charla-corales.jpg" alt="Roger hablando en un atril en la cantada de corales contra el cáncer de Alguaire" loading="lazy"><figcaption>Alguaire. 400 personas y yo con el micro.</figcaption></figure>
-<figure class="polaroid tilt-r"><img src="img/charla-escuela.jpg" alt="Roger explicando el cáncer en una clase de la Escola Abel Ferreter" loading="lazy"><figcaption>Explicando el cáncer a niños de 11 años. El público más exigente.</figcaption></figure>
+<figure class="polaroid tilt-l"><img width="900" height="700" src="img/charla-corales.jpg" alt="Roger hablando en un atril en la cantada de corales contra el cáncer de Alguaire" loading="lazy"><figcaption>Alguaire. 400 personas y yo con el micro.</figcaption></figure>
+<figure class="polaroid tilt-r"><img width="800" height="600" src="img/charla-escuela.jpg" alt="Roger explicando el cáncer en una clase de la Escola Abel Ferreter" loading="lazy"><figcaption>Explicando el cáncer a niños de 11 años. El público más exigente.</figcaption></figure>
 </div>
 </div>
 </div></section>
@@ -359,7 +363,7 @@ footer .links{margin-top:8px}footer .links a{margin-right:16px}
 <h3>"¿Y si no tengo cáncer?"</h3>
 <p>Mira los mensajes de arriba. Más de uno me dice que esto le sirve para la vida. No hace falta un diagnóstico para vivir con miedo, ni con prisa.</p>
 </div>
-<figure class="pic"><img class="sticker tilt-l" src="img/susto.webp" alt="Roger en la cama del hospital poniendo cara de susto" loading="lazy">
+<figure class="pic"><img width="720" height="688" class="sticker tilt-l" src="img/susto.webp" alt="Roger en la cama del hospital poniendo cara de susto" loading="lazy">
 <figcaption class="caption">Mi cara cuando alguien me pregunta si le voy a vender algo.</figcaption></figure>
 </div></div></section>
 

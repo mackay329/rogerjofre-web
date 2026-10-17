@@ -124,6 +124,10 @@ footer a{color:#fff}
 @media(max-width:520px){section{padding:50px 0}nav{gap:12px}nav a{font-size:14px}.sub{box-shadow:4px 4px 0 var(--ink);padding:20px}}
 
 /* v4 */
+/* fix Safari: figuras con ancho real para que carguen las fotos */
+.split .pic,.then figure,.talks figure{width:100%}
+.pic img,.polaroid img,.then figure img{width:100%;height:auto}
+
 /* hero v6 apilado estilo cartel */
 .hero2{background:var(--turq);overflow:hidden}
 .hero2-in{position:relative;min-height:640px;padding-top:48px;padding-bottom:56px}
@@ -202,18 +206,18 @@ footer .links{margin-top:8px}footer .links a{margin-right:16px}
 <p>Quimio, cero pelo y una cara de enfermo que no se la saltaba nadie. Era invierno.</p>
 <p>La misma semana de la quimio me iba al gimnasio. No el mismo día, tampoco soy tan cafre. Cinta, despacio, algo de fuerza con poco peso y a casa. La gente me miraba raro. Calvo, delgaducho y corriendo. Normal.</p>
 <p>Para mí el cáncer era una lesión pasajera. <em>(Era joven e ignorante.)</em> Pero esa ignorancia me salvó de algo: nunca me planteé parar.</p>
-<figure class="pic"><img class="sticker tilt-l" src="img/babero.webp" alt="Roger con 25 años, calvo, con babero" loading="lazy"><figcaption class="caption">25 años. Calvo y con babero. Esto también es superación.</figcaption></figure>
+<figure class="pic"><img width="720" height="613" class="sticker tilt-l" src="img/babero.webp" alt="Roger con 25 años, calvo, con babero" loading="lazy"><figcaption class="caption">25 años. Calvo y con babero. Esto también es superación.</figcaption></figure>
 
 <h2>El segundo: riñón, 37 años</h2>
 <p>Doce años después, otro diagnóstico. Esta vez, el riñón. Se lo llevaron entero, y de regalo me dejaron alguna cicatriz nueva.</p>
-<figure class="pic"><img class="sticker tilt-r" src="img/pulgar.webp" alt="Roger con el pulgar arriba, la vía en la mano y una cicatriz en el pecho" loading="lazy"><figcaption class="caption">Pulgar arriba. Lo demás, también arriba, pero cosido.</figcaption></figure>
+<figure class="pic"><img width="535" height="720" class="sticker tilt-r" src="img/pulgar.webp" alt="Roger con el pulgar arriba, la vía en la mano y una cicatriz en el pecho" loading="lazy"><figcaption class="caption">Pulgar arriba. Lo demás, también arriba, pero cosido.</figcaption></figure>
 
 <h2>El tercero: metástasis cerebral, 41 años. El domingo que no volví a casa</h2>
 <p>Un domingo me levanté a las seis, me vestí y me fui a trabajar sin ver a mi familia. A las diez, un ataque de epilepsia. Inconsciente. UCI.</p>
 <p>Así encontraron la metástasis en el cerebro.</p>
 <p>Lo que yo no viví, porque estaba inconsciente, es que un médico le dijo a mi mujer que no sabía si despertaría. Ella lo escuchó sola.</p>
 <p>Desperté. Desde entonces, cada día abrazo a mis hijos y a mi mujer y les digo que los quiero. En voz alta. Porque sé, de primera mano, que el martes puedes no tener ocasión.</p>
-<figure class="pic"><img class="sticker tilt-l" src="img/grapas.webp" alt="Cicatriz con grapas en la cabeza de Roger tras la operación de cerebro" loading="lazy"><figcaption class="caption">Dos veces me abrieron la cabeza. Las dos veces la volvieron a cerrar. De momento, todo bien.</figcaption></figure>
+<figure class="pic"><img width="462" height="720" class="sticker tilt-l" src="img/grapas.webp" alt="Cicatriz con grapas en la cabeza de Roger tras la operación de cerebro" loading="lazy"><figcaption class="caption">Dos veces me abrieron la cabeza. Las dos veces la volvieron a cerrar. De momento, todo bien.</figcaption></figure>
 
 <h2>Lo que no se ve</h2>
 <p>Por fuera parezco el de siempre. Lo que no se ve es la cantidad de rutinas que me monto para que la memoria no me deje tirado. Notas, repeticiones, todo en su sitio. Soy un tío con la memoria parcheada que ha aprendido a disimularlo.</p>
@@ -222,8 +226,8 @@ footer .links{margin-top:8px}footer .links a{margin-right:16px}
 <p>Llevo 14 años haciendo CrossFit y no he parado ni en quimio. He adaptado, he bajado el ritmo cuando tocaba, he hecho el ridículo alguna vez. Pero no he parado.</p>
 <p>Tengo mujer, dos hijos y una furgoneta donde dormimos los cuatro apilados porque, según yo, eso es unir a la familia. Ellos opinan otra cosa.</p>
 <div class="then" style="margin:30px 0 36px">
-<figure class="polaroid tilt-l"><img src="img/furgo.jpg" alt="Roger sentado junto a su furgoneta camper en el monte" loading="lazy"><figcaption>Mi despacho favorito. Sin wifi, sin quejas.</figcaption></figure>
-<figure class="polaroid tilt-r"><img src="img/familia.jpg" alt="La familia de Roger sentada junto a la furgoneta al lado de un lago" loading="lazy"><figcaption>Cuatro personas, un perro y cero escapatoria.</figcaption></figure>
+<figure class="polaroid tilt-l"><img width="900" height="832" src="img/furgo.jpg" alt="Roger sentado junto a su furgoneta camper en el monte" loading="lazy"><figcaption>Mi despacho favorito. Sin wifi, sin quejas.</figcaption></figure>
+<figure class="polaroid tilt-r"><img width="693" height="475" src="img/familia.jpg" alt="La familia de Roger sentada junto a la furgoneta al lado de un lago" loading="lazy"><figcaption>Cuatro personas, un perro y cero escapatoria.</figcaption></figure>
 </div>
 <p>He hablado en la Associació Heura, en la primera cantada de corales contra el cáncer de Alguaire, en la Escola Abel Ferreter y en Canal Reus.</p>
 <p>Y ayudo a personas con cáncer a atravesarlo con la cabeza en su sitio: <strong>mentalidad</strong>, <strong>vitalidad</strong> y <strong>complicidad</strong>. No soy médico ni psicólogo. Soy prueba viva de lo que cuento.</p>

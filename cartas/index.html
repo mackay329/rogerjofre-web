@@ -124,6 +124,10 @@ footer a{color:#fff}
 @media(max-width:520px){section{padding:50px 0}nav{gap:12px}nav a{font-size:14px}.sub{box-shadow:4px 4px 0 var(--ink);padding:20px}}
 
 /* v4 */
+/* fix Safari: figuras con ancho real para que carguen las fotos */
+.split .pic,.then figure,.talks figure{width:100%}
+.pic img,.polaroid img,.then figure img{width:100%;height:auto}
+
 /* hero v6 apilado estilo cartel */
 .hero2{background:var(--turq);overflow:hidden}
 .hero2-in{position:relative;min-height:640px;padding-top:48px;padding-bottom:56px}
