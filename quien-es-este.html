@@ -124,6 +124,17 @@ footer a{color:#fff}
 @media(max-width:520px){section{padding:50px 0}nav{gap:12px}nav a{font-size:14px}.sub{box-shadow:4px 4px 0 var(--ink);padding:20px}}
 
 /* v4 */
+
+.shots-hint{display:none;font-size:14px;color:var(--soft);margin:-4px 0 6px}
+/* testimonios: 3 columnas en ordenador, carrusel deslizable en móvil */
+.shots{columns:3;column-gap:18px;max-width:none}
+@media(max-width:900px){.shots{columns:2}}
+@media(max-width:620px){
+ .shots{columns:auto;display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 20px 18px;margin:0 -20px;max-width:none;-webkit-overflow-scrolling:touch;align-items:flex-start}
+ .shots figure{flex:0 0 78%;scroll-snap-align:center;margin:0;transform:none!important}
+ .shots-hint{display:block}
+}
+
 /* fix Safari: figuras con ancho real para que carguen las fotos */
 .split .pic,.then figure,.talks figure{width:100%}
 .pic img,.polaroid img,.then figure img{width:100%;height:auto}

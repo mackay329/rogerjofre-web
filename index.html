@@ -124,6 +124,17 @@ footer a{color:#fff}
 @media(max-width:520px){section{padding:50px 0}nav{gap:12px}nav a{font-size:14px}.sub{box-shadow:4px 4px 0 var(--ink);padding:20px}}
 
 /* v4 */
+
+.shots-hint{display:none;font-size:14px;color:var(--soft);margin:-4px 0 6px}
+/* testimonios: 3 columnas en ordenador, carrusel deslizable en móvil */
+.shots{columns:3;column-gap:18px;max-width:none}
+@media(max-width:900px){.shots{columns:2}}
+@media(max-width:620px){
+ .shots{columns:auto;display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 20px 18px;margin:0 -20px;max-width:none;-webkit-overflow-scrolling:touch;align-items:flex-start}
+ .shots figure{flex:0 0 78%;scroll-snap-align:center;margin:0;transform:none!important}
+ .shots-hint{display:block}
+}
+
 /* fix Safari: figuras con ancho real para que carguen las fotos */
 .split .pic,.then figure,.talks figure{width:100%}
 .pic img,.polaroid img,.then figure img{width:100%;height:auto}
@@ -292,12 +303,13 @@ footer .links{margin-top:8px}footer .links a{margin-right:16px}
 <section><div class="wide">
 <h2>Lo que me escriben personas como tú</h2>
 <p>Mensajes privados. Sin nombres, que son suyos.</p>
+<p class="shots-hint">Desliza para ver más →</p>
 <div class="shots">
 <figure><img width="640" height="369" src="img/t1.jpg" alt="Mensaje: tu perfil es de lo que más me ha ayudado a afrontar la operación y a cambiar la mentalidad" loading="lazy"></figure>
-<figure><img width="640" height="345" src="img/t3.jpg" alt="Mensaje: desde que me dijiste que hay que celebrar todo, me lo tomo al pie de la letra" loading="lazy"></figure>
-<figure><img width="640" height="315" src="img/t5.jpg" alt="Mensaje en catalán: un ejemplo a seguir, la vida es una y hay que vivirla cada día" loading="lazy"></figure>
+<figure><img width="640" height="353" src="img/t7.jpg" alt="Mensaje: primer día superado, después de hablar contigo me he dado cuenta de que solo miro lo negativo y que le tengo que dar la vuelta" loading="lazy"></figure>
+<figure><img width="640" height="228" src="img/t2.jpg" alt="Mensaje: desde que me dijiste que hay que celebrar todo, me lo tomo al pie de la letra" loading="lazy"></figure>
+<figure><img width="640" height="542" src="img/t6.jpg" alt="Mensaje en catalán: gracias, ayer fue un día muy duro pero pusiste un rayo de luz; no dejes de hacer vídeos porque nos ayudas mucho" loading="lazy"></figure>
 <figure><img width="640" height="228" src="img/t4.jpg" alt="Mensaje: haces mucho bien, lo que transmites no solo sirve para el cáncer, sirve para la vida" loading="lazy"></figure>
-<figure><img width="640" height="228" src="img/t2.jpg" alt="Mensaje: no es tan diferente para una persona con depresión, lo que publicas sirve para todos" loading="lazy"></figure>
 </div>
 </div></section>
 
